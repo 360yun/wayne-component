@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs/Subject';
 import { DiffTpl } from './diff';
-import { MessageHandlerService } from '../message-handler/message-handler.service';
+import { MessageHandlerService } from '../global-message/message-handler.service';
 const defaultTmp: DiffTpl = {
   fileName: '',
   oldStr: '',

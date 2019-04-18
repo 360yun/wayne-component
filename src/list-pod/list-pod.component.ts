@@ -3,7 +3,7 @@ import 'rxjs/add/operator/debounceTime';
 import 'rxjs/add/operator/distinctUntilChanged';
 import 'rxjs/add/observable/combineLatest';
 import { ClrDatagridStateInterface } from '@clr/angular';
-import { MessageHandlerService } from '../message-handler/message-handler.service';
+import { MessageHandlerService } from '../global-message/message-handler.service';
 import { PublicService } from '../client/v1/public.service';
 import { CacheService } from '../auth/cache.service';
 import { ConfirmationButtons, ConfirmationState, ConfirmationTargets, KubeResourcePod, KubeResourcesName } from '../shared.const';

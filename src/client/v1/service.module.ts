@@ -8,6 +8,7 @@ import { CopyService } from './copy.service';
 import { TabDragService } from './tab-drag.service';
 import { SelectCopyService } from './select-copy.service';
 import { SideNavService } from './sidenav.service';
+
 @NgModule({
   declarations: [TipDirective],
   exports: [TipDirective],

@@ -10,7 +10,7 @@ import { PageState } from '../page/page-state';
 import { CacheService } from '../auth/cache.service';
 import { KubeResourcesName } from '../shared.const';
 import { ActivatedRoute } from '@angular/router';
-import { MessageHandlerService } from '../message-handler/message-handler.service';
+import { MessageHandlerService } from '../global-message/message-handler.service';
 
 @Component({
   selector: 'list-event-datagrid',

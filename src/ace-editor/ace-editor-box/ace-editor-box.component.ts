@@ -6,7 +6,7 @@ import * as ace from 'brace';
 import 'brace/mode/json';
 import 'brace/mode/yaml';
 import * as YAML from 'js-yaml';
-import { MessageHandlerService } from '../../message-handler/message-handler.service';
+import { MessageHandlerService } from '../../global-message/message-handler.service';
 
 @Component({
   selector: 'wayne-ace-editor-box',

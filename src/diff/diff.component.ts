@@ -5,7 +5,7 @@ import { DiffService } from './diff.service';
 import { Subscription } from 'rxjs';
 import { DiffTpl } from './diff';
 import * as YAML from 'js-yaml';
-import { MessageHandlerService } from '../message-handler/message-handler.service';
+import { MessageHandlerService } from '../global-message/message-handler.service';
 /**
  * instructions
  *

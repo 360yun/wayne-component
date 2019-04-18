@@ -4,13 +4,15 @@ import { ClrIconModule } from '@clr/angular';
 import { TranslateModule } from '@ngx-translate/core';
 import { MessageComponent } from './message.component';
 import { MessageService } from './message.service';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MessageHandlerService } from './message-handler.service';
 @NgModule({
-  imports: [CommonModule, ClrIconModule, TranslateModule],
+  imports: [CommonModule, ClrIconModule, TranslateModule, BrowserAnimationsModule],
   declarations: [MessageComponent],
   exports: [MessageComponent],
   providers: [
-    MessageService
+    MessageService,
+    MessageHandlerService
   ]
 })
 export class MessageModule { }

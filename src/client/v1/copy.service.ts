@@ -1,6 +1,6 @@
 import { Inject, Injectable, Renderer2, RendererFactory2 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
-import { MessageHandlerService } from '../../message-handler/message-handler.service';
+import { MessageHandlerService } from '../../global-message/message-handler.service';
 
 @Injectable()
 export class CopyService {

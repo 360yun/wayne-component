@@ -193,7 +193,9 @@ export class SelectComponent implements OnInit, AfterViewInit, ControlValueAcces
 
   ngAfterViewInit() {
     this.svg = this.el.nativeElement.querySelector('svg');
+    this.scrollService.init();
     this.marginRight = -this.scrollService.scrollBarWidth;
+    console.log(this.marginRight);
   }
 
   inputEvent(evt) {
